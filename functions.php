@@ -40,7 +40,7 @@ HTML;
 function radio (string $name, string $value, array $data): string
     {
         $attributes = "";
-        if (isset($data[$name]) && $value === $data[$name]) {
+        if (isset($data[$name]) && $value  === $data[$name]) {
         $attributes .= "checked";
         }
         return <<<HTML
